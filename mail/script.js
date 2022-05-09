@@ -25,8 +25,6 @@ mioBottone.addEventListener("click",
                 mioOutput.innerHTML = "la tua mail non cè";
              }
         }
-
-       
     }
 )
 
