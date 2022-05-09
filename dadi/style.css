@@ -1,0 +1,17 @@
+body {
+    background-image: url(https://images6.alphacoders.com/451/451028.jpg);
+    background-size: cover;
+    height: 100vh;
+}
+
+
+.container{
+    font-size: 25px; 
+    color: white;
+    width: 50%;
+}
+
+#game input,
+#game button{
+    font-size: 20px;
+}
