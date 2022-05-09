@@ -16,13 +16,13 @@ mioBottone.addEventListener("click",
         // dai esito
             if (checkMail === mioInput.value){
                 console.log("ok");
-                document.getElementById("esito").innerHTML = "la tua mail cè";
+                mioOutput.innerHTML = "la tua mail cè";
 
                 {break;}
             }
             else  {
                 console.log("non cè");
-                document.getElementById("esito").innerHTML = "la tua mail non cè";
+                mioOutput.innerHTML = "la tua mail non cè";
              }
         }
 
