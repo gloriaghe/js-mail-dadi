@@ -13,19 +13,24 @@ mioBottone.addEventListener("click",
         // controlla se nella lista
         for (let i = 0; i < listaMail.length; i++) {
             let checkMail = listaMail[i];
-            console.log(checkMail)
         // dai esito
             if (checkMail === mioInput.value){
                 console.log("ok");
                 document.getElementById("esito").innerHTML = "la tua mail cè";
+
+                {break;}
             }
-            else if (checkMail !== mioInput.value){
+            else  {
                 console.log("non cè");
                 document.getElementById("esito").innerHTML = "la tua mail non cè";
              }
         }
+
+       
     }
 )
+
+
 
 
 
